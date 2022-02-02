@@ -45,6 +45,12 @@ All sequence containers vector, list, and deque has front() and back() to show t
 
     vec.back();
 
+### resize()
+It resizes the vector. If it becomes bigger than before, it fills the empty spaces with argument.
+
+    vector<int> vec(3, 1);   // 1 1 1
+    vec.resize(5, 2);   // 1 1 1 2 2
+
 ### swap()
 This is the function that all containers in C++ provide. It swaps the elements of two containers.
 
