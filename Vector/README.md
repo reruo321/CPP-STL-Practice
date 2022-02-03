@@ -71,3 +71,10 @@ Since C++11, the compiler provides them shrink_to_fit().
     vec.shrink_to_fit();
     
 However, it is a costly non-binding function to waste too much CPU time when it copies a lot of elements. You would only use it when really necessary.
+
+## Tips
+### 2D Vector
+To create a 2D vector, declare a vector of vector<TYPE>.
+
+    vector<vector<int>> vec;
+    
