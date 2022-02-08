@@ -36,6 +36,16 @@ Adds an element to the end. While push_back() takes an object to insert, emplace
     vector<SomeObject> objVec;
     objVec.emplace_back("Hello", 123);
 
+### pop_back()
+Pops an element from the vector from the back.
+
+    vec.pop_back();
+
+### size()
+Returns the number of elements in the vector.
+
+    vec.size()
+
 ### front()
 All sequence containers vector, list, and deque has front() and back() to show the first and the last elements.
 
