@@ -46,6 +46,26 @@ Returns the number of elements in the vector.
 
     vec.size()
 
+### begin()
+Returns a random access iterator pointing to the first element in the vector.
+
+    for(vector<int>::iterator it = vec.begin(); it != vec.end(); ++it){ cout << *it << ' '; }
+
+### end()
+Returns a random access iterator pointing to the *past-the-end* element in the vector.
+
+    for(vector<int>::iterator it = vec.begin(); it != vec.end(); ++it){ cout << *it << ' '; }
+
+### rbegin()
+Returns a reverse random access iterator pointing to the last element in the vector.
+
+    for(vector<int>::revserse_iterator it = vec.rbegin(); it != vec.rend(); ++it){ cout << *it << ' '; }
+
+### rend()
+Returns a reverse random access iterator pointing to the *reverse end* element in the vector.
+
+    for(vector<int>::revserse_iterator it = vec.rbegin(); it != vec.rend(); ++it){ cout << *it << ' '; }
+
 ### front()
 All sequence containers vector, list, and deque has front() and back() to show the first and the last elements.
 
