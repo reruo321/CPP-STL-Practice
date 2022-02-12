@@ -13,6 +13,6 @@ The header algorithm defines many common algorithms. Example: binary_search()
 ### Containers
 Storages for objects and data. Example: set, list, vector, ...
 ### Functors
-Classes that overload function call operator.
+Classes that overload function call operator. It overloads operator().
 ### Iterators
 Process on a sequence of values.
